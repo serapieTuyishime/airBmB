@@ -1,0 +1,6 @@
+.hello {
+    color:rgb(38, 169, 57);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
