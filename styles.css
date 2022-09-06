@@ -4,3 +4,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .categories{
+        @apply mt-8 flex flex-nowrap px-12 h-20 overflow-x-auto
+    }
+    .category{
+        @apply w-16 mx-4
+
+    }
+    .category__text
+    {
+        @apply text-center  block whitespace-nowrap mt-2;
+        font-size : .75rem;
+
+    }
+    .category__image{
+        @apply w-8 mx-auto blur-[.5px];
+    }
+}
