@@ -22,4 +22,17 @@
     .category__image{
         @apply w-8 mx-auto blur-[.5px];
     }
+
+    .card{
+        @apply w-64 mx-4 my-4 
+    }
+    .image-div{
+        @apply max-w-md
+    }
+    .card__image{
+    @apply object-cover rounded-lg 
+    }
+    .card__desc{
+        @apply flex flex-nowrap;
+    }
 }
